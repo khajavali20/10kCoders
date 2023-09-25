@@ -1,0 +1,120 @@
+body {
+    margin: 0 auto;
+}
+header {
+    display:  grid;
+    grid-template-areas: "header-content header-content";
+    background-color: #ffff;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    
+    
+}
+.main-header {
+    display: flex;
+    grid-area: header-content;
+    margin: 0 200px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+ul a img[alt="logo" ] {
+    height: 45px;
+    width: 45px;
+}
+
+ul a img {
+    height: 35px;
+    width: 35px;
+}
+
+li:nth-child(6) {
+    flex-grow: 0.5;
+}
+
+ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    color: #191919;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+ul li a:hover {
+    color: #ff6900;
+}
+
+.sec1 {
+    display: grid;
+    grid-template-areas: "image";
+}
+
+.carousel {
+    grid-area: image;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.carousel img {
+    width:  100vw;
+    height: 500px;
+    position: relative;
+}
+.carousel-content {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   width: 350px;
+   top: 80px;
+   left: 250px;
+   color: #ffff;
+}
+.carousel-content h3 {
+    font-size: 48px;
+    margin: 15px 0;
+}
+.carousel-content p {
+    font-size: 22px;
+}
+.carousel-content button {
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 21px;
+}
+.carousel-content p del {
+    font-size: 16px;
+    color: #b39c9c
+}
+
+.carousel-content span {
+    font-size: 24px;
+}
+
+.sec2 {
+    display: grid;
+    grid-template-areas: "picture";
+}
+
+.sec3 {
+    display: grid;
+    grid-template-areas: "picture";
+}
+
+.picture {
+    grid-area: picture;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.picture img {
+    width: 68vw;;
+    padding: 30px 0 0 0 ;
+}

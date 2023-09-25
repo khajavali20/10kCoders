@@ -1,21 +1,40 @@
 .box1 {
    top: 310px;
    left: 799px;
+   animation-name: animator;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-delay: 1s;
+
 }
 
 .box2 {
    top: 310px;
    left: 800px;
+   animation-name: animator2;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-delay: 1.5s;
 }
 
 .box3 {
    top: 417px;
    left: 587px;
+   animation-name: animator3;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-delay: 2.5s;
+
 }
 
 .box4 {
     top: 417px;
    left: 588px;
+   animation-name: animator4;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-delay: 2s;
+
 }
 div {
     border: 1px solid black ; 
@@ -37,4 +56,40 @@ h1 {
     left: 332px;
     font-size: 60px;
     color: azure;
+}
+
+@keyframes animator {
+
+    from {
+        background-color: #ffff;
+    }
+    to {
+        background-color: #f8510f;
+    }
+   
+} 
+
+@keyframes animator2 {
+    from {
+        background-color: #ffff;
+    }
+    to {
+        background-color: #7eba07;
+    }
+}
+@keyframes animator3 {
+    from {
+        background-color: #ffff;
+    }
+    to {
+        background-color: #00a3f0;
+    }
+}
+@keyframes animator4 {
+    from {
+        background-color: #ffff;
+    }
+    to {
+        background-color: #ffba0f;
+    }
 }

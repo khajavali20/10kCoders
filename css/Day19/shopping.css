@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+header {
+    display: grid;
+    grid-row: auto;
+    position: sticky;
+    margin: 10px 0px;
+    background-color: #ffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    margin: 0 auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    padding-left: 45px;
+    color: #191919;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+nav ul li a:hover {
+    color: #ff6900;
+}
+
+.nav1,.nav2 {
+    display: flex;
+    align-items: center;
+}
+.nav2 img {
+    padding-left: 30px;
+}
+
+
+[alt="mi"] {
+    width: 40px;
+    height: 40px;
+}
+[alt=cart] {
+    width: 35px;
+    height: 35px;
+}
+[alt=user] {
+    width: 35px;
+    height: 35px;
+}
+
+.picture-card {
+    position: relative;
+}
+
+.carousel-container .picture-card img {
+    width: 116.938rem;
+    height: 500px;
+    overflow: hidden;
+}
+.carousel-header {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    left: 300px;
+    width: 300px;
+}
+.carousel-header h3 {
+    font-size: 48px;
+    margin: 8px 0;
+}
+.carousel-header p {
+    font-size: 22px;
+}
+.carousel-header span {
+    font-size: 24px;
+}
+.carousel-button button{
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 21px;
+}
+.carousel-header p del {
+    font-size: 16px;
+    color: #b39c9c
+}
+.sec1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.sec1 img{
+    padding: 30px 0 0 0; 
+    width: 68%;
+}
+.sec2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.sec2 img {
+    padding: 30px 0px 0 0 ;
+    width: 68%;
+}

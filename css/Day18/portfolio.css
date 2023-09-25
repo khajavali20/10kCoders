@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, serif;
+    background-color: rgb(10, 10, 10);
+    background-image: url(./assets/791757.jpg);
+    background-size: length;
+    background-position: top;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+.main-header {
+    width: 100%;
+}
+nav ul li {
+    list-style: none;
+    padding: 0px 10px;
+    display: inline-block;
+    padding: 15px 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px 0px;
+    position: sticky;
+}
+.logo a {
+    color:white;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+span {
+    color: #f9004d;
+    font-size: 35px;
+}
+.link1 {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.link {
+    color: aliceblue;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 35px;
+    background-color: #f9004d;
+    text-transform: capitalize;
+}
+.sec {
+    color: aliceblue;
+    position: relative;
+    top: 330px;
+    left: 380px;
+    display: inline-block;
+}
+section div h1 {
+    font-size: 70px;
+}
+
+section div h1 span {
+    color: #f9004d;
+    font-size: 70px;
+}
+
+#head2 {
+    font-size: 19px;
+    word-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+#head3 {
+    font-size: 23px;
+    word-spacing: 5px;
+    margin-top: 10px;
+}
+
+.link1:hover {
+    border-bottom: 3px solid #f9004d;
+    color: white;
+    font-weight: 600;
+}
+.icons {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    
+}
+.sec2 {
+    margin-top: 35px;
+}
+.sec2 button{
+    color: white;
+    padding: 14px 60px;
+    background-color: #f9004d;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid rgb(161, 161, 189);
+    font-size: 15px;
+    line-height: 0.9;
+    font: bold;
+}
+.sec2 button:hover {
+    border: 2px solid #f9004d;
+    background-color: rgb(54, 8, 221);
+}
+
+.about {
+    position: relative;
+    left: 1px;
+    margin: 50px;
+    top: 598px;
+}
+
+.objectCareer {
+    color: white;
+    display: inline-block;
+    padding: 80px 550px;
+    text-align: justify;
+}
+
+#about-me {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    color: #f9004d;
+    font-size: 32px;
+} 
+
+.objectCareer p {
+    padding: 0px 0px 25px 0px;
+    font-size: 15px;
+}
+
+.profile {
+    position: relative;
+    top: 630px;
+    left: 735px;
+    display: inline-block;
+    color: white;
+}
+footer {
+    position: relative;
+    top: 1000px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 43, 49);
+    
+}
+
+section .profile-head {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 80px;
+    color: #f9004d;
+}
+
+.contacts {
+    display: block;
+    margin: 20px;
+    width: 400px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    background-color: black;
+    outline: none;
+    border: #adef solid 2px;
+    color: white;
+}
+.button-primary button {
+    padding: 10px 45px;
+    background-color: #f9004d;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.button-primary {
+    text-align: center;
+    padding-top: 10px;
+}
+.foot {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+.footers a {
+    text-decoration: none;
+    color: #f9004d;
+    font-size: 15px;
+}
+.foot-er img {
+    height: 45px;
+    width: 45px;
+    padding-bottom: 10px;
+}
+
+.contacts::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.skills {
+    position: relative;
+    top: 800px;
+    margin: 0px 100px;
+}
+.skill span {
+    color: white;
+}
+.skill {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.skill1,.skill2,.skill3,.skill4 {
+    border-radius: 1px 35px;
+    border: 2px solid rgb(137, 213, 238);
+    padding: 30px;
+    
+}
+.skills h2 { 
+    text-align: center;
+    color: #f9004d;
+    margin-bottom: 80px;
+    font-size: 32px;
+}
+
+.skill1:hover,.skill2:hover,.skill3:hover,.skill4:hover {
+    background-color: #f9004d;
+}
+
+.footers a:hover {
+    color: white;
+}
