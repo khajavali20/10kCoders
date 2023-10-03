@@ -1,4 +1,4 @@
-var aler= alert("this is a simple website");
+var aler = alert("this is a simple website");
 document.write(aler);
 
 var promp = prompt("Are you like my page??");
