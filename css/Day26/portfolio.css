@@ -1,12 +1,39 @@
-.k-nav {
+/* .k-nav {
     background-color: aqua;
-}
+} */
 .k-name {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 26px;
 }
 .k-name span {
-    font-size: 32px;
+    font-size: 30px;
     color: brown;
 }
 
+ul :nth-child(1), ul :nth-child(2), ul :nth-child(4), ul :nth-child(5) {
+    padding-top: 10px;
+}
+
+.bg-image {
+    background-image: url(./assets/photo-1531297484001-80022131f5a1.jpg);
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.about-me {
+    color: #ffff;
+    padding-top: 250px;
+}
+#iam {
+  font-size: 22px;
+}
+#syed {
+  font-size: 42px;
+}
+#dev {
+  font-size: 22px;
+}
+#soft {
+    font-size: 32px;
+}
