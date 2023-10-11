@@ -15,25 +15,16 @@ ul :nth-child(1), ul :nth-child(2), ul :nth-child(4), ul :nth-child(5) {
 }
 
 .bg-image {
-    background-image: url(./assets/photo-1531297484001-80022131f5a1.jpg);
+    background-image: url();
     background-size: cover;
-    height: 800px;
+    height: 670px;
     background-repeat: no-repeat;
 }
 
 .about-me {
-    color: #ffff;
     padding-top: 250px;
 }
-#iam {
-  font-size: 22px;
-}
-#syed {
-  font-size: 42px;
-}
-#dev {
-  font-size: 22px;
-}
-#soft {
-    font-size: 32px;
+
+[alt="khaja"] {
+    border-radius: 10px;
 }
