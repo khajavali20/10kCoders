@@ -1,0 +1,26 @@
+.calculator {
+    width: 500px;
+    height: 600px;
+    background-color: coral;
+}
+
+.calculator input[type="text"] {
+    width: 100%;
+    height: 100px;
+    margin: 50px;
+}
+
+.calculator .btn {
+    background-color: crimson;
+    width: 80px;
+    height: 70px;
+}
+
+.btn-primary {
+    width: 100px;
+    padding: 0 100px;
+}
+.div {
+    padding: 5px 0px;
+    margin: 0px 50px;
+}
